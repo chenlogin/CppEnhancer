@@ -1,5 +1,6 @@
-- pkg 构建32位exe文件报错
-  - node等编译环境需要32位
-
- - node ./src/readWordFiles.js
+- 将.cpp文件构建成.node文件
+  - npm run build
+- 构建64位exe文件
+  - npm run pkg_win64 
+- node ./src/readWordFiles.js
    - word 文档识别

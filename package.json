@@ -7,7 +7,6 @@
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean",
     "pkg_win64": "pkg src/index.js -t node14-win-x64 -o dist/index_64.exe",
-    "pkg_win32": "pkg src/index.js -t node14-win-x86 -o dist/index_32.exe",
     "dev": "node src/index.js",
     "dev:word": "node src/readWordFiles.js"
   },
